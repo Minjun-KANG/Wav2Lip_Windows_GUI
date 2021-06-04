@@ -7,6 +7,7 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 -----------
 **Y2X**
 -----------
+- Programe
 ![](./readme/main.png)
 
 -----------
@@ -35,6 +36,7 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 **GUI Layout**
 -----------
  - Layout
+
 ![](./readme/layout.png)
  - By color, the variable names begin with a, b, c, d, e, and f. (green is a)
 
@@ -42,6 +44,6 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 **icon**
 -----------
  - My friend made icon in 10 seconds.
-![](./readme/icon.png)
+![](./resource/icon.png)
 
 
