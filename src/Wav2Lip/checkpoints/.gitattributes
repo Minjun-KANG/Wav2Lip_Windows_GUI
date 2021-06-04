@@ -1,0 +1,1 @@
+C:/Users/Kang/Desktop/Source[[:space:]]code/Git/Wav2Lip/checkpoints/*.pth filter=lfs diff=lfs merge=lfs -text
