@@ -34,159 +34,6 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
  - Problem
 
 -----------
-**File Hierarchy**
-
-'''
-root
-│  requirements.txt\n
-│  result.avi
-│  
-├─input
-│      audio.wav
-│      video.avi
-│      
-├─resource
-│      icon.ico
-│      icon.png
-│      icon2.png
-│      icon3.png
-│      
-├─src
-│  │  e2_timeSelect.py
-│  │  e3_faceRecognition.py
-│  │  e5_Help.py
-│  │  face_classifier.py
-│  │  main.py
-│  │  person_db.py
-│  │  
-│  ├─Wav2Lip
-│  │  │  .gitignore
-│  │  │  audio.py
-│  │  │  color_syncnet_train.py
-│  │  │  hparams.py
-│  │  │  hq_wav2lip_train.py
-│  │  │  inference.py
-│  │  │  preprocess.py
-│  │  │  README.md
-│  │  │  requirements.txt
-│  │  │  wav2lip_train.py
-│  │  │  __init__.py
-│  │  │  
-│  │  ├─checkpoints
-│  │  │      .gitattributes
-│  │  │      README.md
-│  │  │      wav2lip_gan.pth
-│  │  │      
-│  │  ├─evaluation
-│  │  │  │  gen_videos_from_filelist.py
-│  │  │  │  README.md
-│  │  │  │  real_videos_inference.py
-│  │  │  │  
-│  │  │  ├─scores_LSE
-│  │  │  │      calculate_scores_LRS.py
-│  │  │  │      calculate_scores_real_videos.py
-│  │  │  │      calculate_scores_real_videos.sh
-│  │  │  │      SyncNetInstance_calc_scores.py
-│  │  │  │      
-│  │  │  └─test_filelists
-│  │  │      │  lrs2.txt
-│  │  │      │  lrs3.txt
-│  │  │      │  lrw.txt
-│  │  │      │  README.md
-│  │  │      │  
-│  │  │      └─ReSyncED
-│  │  │              random_pairs.txt
-│  │  │              tts_pairs.txt
-│  │  │              
-│  │  ├─face_detection
-│  │  │  │  api.py
-│  │  │  │  models.py
-│  │  │  │  README.md
-│  │  │  │  utils.py
-│  │  │  │  __init__.py
-│  │  │  │  
-│  │  │  ├─detection
-│  │  │  │  │  core.py
-│  │  │  │  │  __init__.py
-│  │  │  │  │  
-│  │  │  │  ├─sfd
-│  │  │  │  │  │  bbox.py
-│  │  │  │  │  │  detect.py
-│  │  │  │  │  │  net_s3fd.py
-│  │  │  │  │  │  s3fd.pth
-│  │  │  │  │  │  sfd_detector.py
-│  │  │  │  │  │  __init__.py
-│  │  │  │  │  │  
-│  │  │  │  │  └─__pycache__
-│  │  │  │  │          bbox.cpython-38.pyc
-│  │  │  │  │          detect.cpython-38.pyc
-│  │  │  │  │          net_s3fd.cpython-38.pyc
-│  │  │  │  │          sfd_detector.cpython-38.pyc
-│  │  │  │  │          __init__.cpython-38.pyc
-│  │  │  │  │          
-│  │  │  │  └─__pycache__
-│  │  │  │          core.cpython-38.pyc
-│  │  │  │          __init__.cpython-38.pyc
-│  │  │  │          
-│  │  │  └─__pycache__
-│  │  │          api.cpython-38.pyc
-│  │  │          models.cpython-38.pyc
-│  │  │          utils.cpython-38.pyc
-│  │  │          __init__.cpython-38.pyc
-│  │  │          
-│  │  ├─filelists
-│  │  │      README.md
-│  │  │      
-│  │  ├─models
-│  │  │  │  conv.py
-│  │  │  │  syncnet.py
-│  │  │  │  wav2lip.py
-│  │  │  │  __init__.py
-│  │  │  │  
-│  │  │  └─__pycache__
-│  │  │          conv.cpython-38.pyc
-│  │  │          syncnet.cpython-38.pyc
-│  │  │          wav2lip.cpython-38.pyc
-│  │  │          __init__.cpython-38.pyc
-│  │  │          
-│  │  ├─results
-│  │  │      README.md
-│  │  │      
-│  │  ├─temp
-│  │  │      README.md
-│  │  │      result.avi
-│  │  │      
-│  │  └─__pycache__
-│  │          audio.cpython-38.pyc
-│  │          hparams.cpython-38.pyc
-│  │          inference.cpython-38.pyc
-│  │          __init__.cpython-38.pyc
-│  │          
-│  └─__pycache__
-│          e2_timeSelect.cpython-38.pyc
-│          e3_faceRecognition.cpython-38.pyc
-│          e5_Help.cpython-38.pyc
-│          popup.cpython-38.pyc
-│          roi.cpython-38.pyc
-│          VideoCropDialog.cpython-38.pyc
-│          
-└─temp
-　  │  faulty_frame.jpg
-　  │  original.wav
-　  │  result.avi
-　  │  
-　  └─Multi
-　      │  person_div.jpg
-　      │  
-　      ├─A 
-　      │      1.jpg
-　      │      
-　      └─B  
-　             1.jpg  
-              
------------
-
------------
 **GUI Layout**
 -----------
  - Layout
@@ -203,4 +50,152 @@ root
 ![](./resource/icon2.png)
 ![](./resource/icon3.png)
 
-
+-----------
+**File Hierarchy**
+-----------
+root  
+│  requirements.txt  
+│  result.avi  
+│  
+├─input  
+│      audio.wav  
+│      video.avi  
+│  
+├─resource  
+│      icon.ico  
+│      icon.png  
+│      icon2.png  
+│      icon3.png  
+│  
+├─src  
+│  │  e2_timeSelect.py  
+│  │  e3_faceRecognition.py  
+│  │  e5_Help.py  
+│  │  face_classifier.py  
+│  │  main.py  
+│  │  person_db.py  
+│  │  
+│  ├─Wav2Lip  
+│  │  │  .gitignore  
+│  │  │  audio.py  
+│  │  │  color_syncnet_train.py  
+│  │  │  hparams.py  
+│  │  │  hq_wav2lip_train.py  
+│  │  │  inference.py  
+│  │  │  preprocess.py  
+│  │  │  README.md  
+│  │  │  requirements.txt  
+│  │  │  wav2lip_train.py  
+│  │  │  __init__.py  
+│  │  │  
+│  │  ├─checkpoints  
+│  │  │      .gitattributes  
+│  │  │      README.md  
+│  │  │      wav2lip_gan.pth  
+│  │  │  
+│  │  ├─evaluation  
+│  │  │  │  gen_videos_from_filelist.py  
+│  │  │  │  README.md  
+│  │  │  │  real_videos_inference.py  
+│  │  │  │  
+│  │  │  ├─scores_LSE  
+│  │  │  │      calculate_scores_LRS.py  
+│  │  │  │      calculate_scores_real_videos.py  
+│  │  │  │      calculate_scores_real_videos.sh  
+│  │  │  │      SyncNetInstance_calc_scores.py  
+│  │  │  │  
+│  │  │  └─test_filelists  
+│  │  │      │  lrs2.txt  
+│  │  │      │  lrs3.txt  
+│  │  │      │  lrw.txt  
+│  │  │      │  README.md  
+│  │  │      │  
+│  │  │      └─ReSyncED  
+│  │  │              random_pairs.txt  
+│  │  │              tts_pairs.txt  
+│  │  │  
+│  │  ├─face_detection  
+│  │  │  │  api.py  
+│  │  │  │  models.py  
+│  │  │  │  README.md  
+│  │  │  │  utils.py  
+│  │  │  │  __init__.py  
+│  │  │  │  
+│  │  │  ├─detection  
+│  │  │  │  │  core.py  
+│  │  │  │  │  __init__.py  
+│  │  │  │  │  
+│  │  │  │  ├─sfd  
+│  │  │  │  │  │  bbox.py  
+│  │  │  │  │  │  detect.py  
+│  │  │  │  │  │  net_s3fd.py  
+│  │  │  │  │  │  s3fd.pth  
+│  │  │  │  │  │  sfd_detector.py  
+│  │  │  │  │  │  __init__.py  
+│  │  │  │  │  │  
+│  │  │  │  │  └─__pycache__  
+│  │  │  │  │          bbox.cpython-38.pyc  
+│  │  │  │  │          detect.cpython-38.pyc  
+│  │  │  │  │          net_s3fd.cpython-38.pyc  
+│  │  │  │  │          sfd_detector.cpython-38.pyc  
+│  │  │  │  │          __init__.cpython-38.pyc  
+│  │  │  │  │  
+│  │  │  │  └─__pycache__  
+│  │  │  │          core.cpython-38.pyc  
+│  │  │  │          __init__.cpython-38.pyc  
+│  │  │  │  
+│  │  │  └─__pycache__  
+│  │  │          api.cpython-38.pyc  
+│  │  │          models.cpython-38.pyc  
+│  │  │          utils.cpython-38.pyc  
+│  │  │          __init__.cpython-38.pyc  
+│  │  │  
+│  │  ├─filelists  
+│  │  │      README.md  
+│  │  │  
+│  │  ├─models  
+│  │  │  │  conv.py  
+│  │  │  │  syncnet.py  
+│  │  │  │  wav2lip.py  
+│  │  │  │  __init__.py  
+│  │  │  │  
+│  │  │  └─__pycache__  
+│  │  │          conv.cpython-38.pyc  
+│  │  │          syncnet.cpython-38.pyc  
+│  │  │          wav2lip.cpython-38.pyc  
+│  │  │          __init__.cpython-38.pyc  
+│  │  │  
+│  │  ├─results  
+│  │  │      README.md  
+│  │  │  
+│  │  ├─temp  
+│  │  │      README.md  
+│  │  │      result.avi  
+│  │  │  
+│  │  └─__pycache__  
+│  │          audio.cpython-38.pyc  
+│  │          hparams.cpython-38.pyc  
+│  │          inference.cpython-38.pyc  
+│  │          __init__.cpython-38.pyc  
+│  │  
+│  └─__pycache__  
+│          e2_timeSelect.cpython-38.pyc  
+│          e3_faceRecognition.cpython-38.pyc  
+│          e5_Help.cpython-38.pyc  
+│          popup.cpython-38.pyc  
+│          roi.cpython-38.pyc  
+│          VideoCropDialog.cpython-38.pyc  
+│  
+└─temp  
+　  │  faulty_frame.jpg   
+　  │  original.wav  
+　  │  result.avi  
+　  │  
+　  └─Multi  
+　      │  person_div.jpg  
+　      │  
+　      ├─A  
+　      │      1.jpg  
+　      │  
+　      └─B  
+　               1.jpg  
