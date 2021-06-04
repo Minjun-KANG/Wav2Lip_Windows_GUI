@@ -5,6 +5,11 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 ![](./readme/kw_logo.png)
 
 -----------
+**Y2X**
+-----------
+![](./readme/main.png)
+
+-----------
 **Topic**
 -----------
  - The Wav2Lip used by this program can be found [here](https://github.com/Rudrabha/Wav2Lip).
@@ -21,10 +26,22 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
  - [Wav2Lip_Windows_GUI/src/Wav2Lip/checkpoints/wav2lip_gan.pth](https://iiitaphyd-my.sharepoint.com/personal/radrabha_m_research_iiit_ac_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fradrabha%5Fm%5Fresearch%5Fiiit%5Fac%5Fin%2FDocuments%2FWav2Lip%5FModels%2Fwav2lip%5Fgan%2Epth&parent=%2Fpersonal%2Fradrabha%5Fm%5Fresearch%5Fiiit%5Fac%5Fin%2FDocuments%2FWav2Lip%5FModels&originalPath=aHR0cHM6Ly9paWl0YXBoeWQtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvcmFkcmFiaGFfbV9yZXNlYXJjaF9paWl0X2FjX2luL0Vkakk3YlpsZ0FwTXFzVm9FVVVYcExzQnhxWGJuNXo4VlRtb3hwNTVZTkRjSUE%5FcnRpbWU9SWlFR0lBZ24yVWc) is required. 
  - Download the library by referring to requirements.
 
+-----------
+**Problem**
+-----------
+ - Problem
 
 -----------
 **GUI Layout**
 -----------
  - Layout
-![](./readme/layout)
+![](./readme/layout.png)
  - By color, the variable names begin with a, b, c, d, e, and f. (green is a)
+
+-----------
+**icon**
+-----------
+ - My friend made icon in 10 seconds.
+![](./readme/icon.png)
+
+
