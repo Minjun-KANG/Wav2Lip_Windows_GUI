@@ -7,7 +7,8 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 -----------
 **Y2X**
 -----------
-- Programe
+- Program
+
 ![](./readme/main.png)
 
 -----------
@@ -44,6 +45,7 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 **icon**
 -----------
  - My friend made icon in 10 seconds.
+
 ![](./resource/icon.png)
 
 
