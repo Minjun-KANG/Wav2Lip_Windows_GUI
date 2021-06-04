@@ -48,6 +48,6 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 
 ![](./resource/icon.png)
 ![](./resource/icon2.png)
-![](./resource/icon3.PNG)
+![](./resource/icon3.png)
 
 
