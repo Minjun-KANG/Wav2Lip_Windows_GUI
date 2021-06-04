@@ -1,6 +1,7 @@
 # **Wav2Lip_Windows_GUI**: *Program Using PyQT5*
 
 This is a capstone work of Y2X majoring in electronics and communication engineering at Kwangwoon University in South Korea.
+
 ![](./readme/kw_logo.png)
 
 -----------
