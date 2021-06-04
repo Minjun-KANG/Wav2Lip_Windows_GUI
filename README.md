@@ -39,7 +39,7 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 
 '''
 root
-│  requirements.txt
+│  requirements.txt\n
 │  result.avi
 │  
 ├─input
