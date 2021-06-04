@@ -35,7 +35,6 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 
 -----------
 **File Hierarchy**
------------
 
 '''
 root
@@ -189,6 +188,7 @@ root
 
 '''
 
+-----------
 
 -----------
 **GUI Layout**
