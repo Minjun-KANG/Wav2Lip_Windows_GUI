@@ -9,7 +9,7 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
 -----------
 - Program
 
-![](./readme/main.png)
+![](./readme/main.PNG)
 
 -----------
 **Topic**
@@ -47,5 +47,7 @@ This is a capstone work of Y2X majoring in electronics and communication enginee
  - My friend made icon in 10 seconds.
 
 ![](./resource/icon.png)
+![](./resource/icon2.png)
+![](./resource/icon3.PNG)
 
 
